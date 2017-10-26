@@ -3,6 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
+<<<<<<< HEAD
         echo "Continuous Integration on branch ${env.BRANCH_NAME}"
         echo 'Build libraries'
         echo 'Test deployment'
@@ -54,3 +55,10 @@ pipeline {
     }
   }
 }
+=======
+        echo 'Build05'
+      }
+    }
+  }
+}
+>>>>>>> 18f0b3c932fc2103406cb6cf42c8dada4a4923e5
